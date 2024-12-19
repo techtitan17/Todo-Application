@@ -4,16 +4,19 @@ let input=document.querySelector("input");
 // let li=document.querySelectorAll("li");
 
 btn.addEventListener("click",function(){
+    
     let item=document.createElement("li");
     item.innerText=input.value;
     
-
+   
     let delbtn=document.createElement("button");
     delbtn.innerText="delete";
     delbtn.classList.add("delete");
+   
     item.appendChild(delbtn)
 
     ul.appendChild(item);
+    
     
     input.value=null;
 });

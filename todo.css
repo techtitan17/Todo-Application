@@ -1,1 +1,36 @@
+*{
+    background: #d4f1f4;
+}
 
+h1{
+    color: #05445e;
+    text-align: center;
+}
+div{
+    text-align: center;
+    height: 50px;
+}
+.height{
+    height: 50px;
+    border: 2px solid #05445e;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #189ab4;
+}
+input{
+    width:600px;
+  
+}
+.btn1{
+    background: #75e6da;
+    color:#05445e;
+}
+ul{
+    color:#05445e;
+    font-size: 2rem;
+
+}
+.delete{
+    border: 2px solid #05445e;
+    border-radius: 10px;
+}
